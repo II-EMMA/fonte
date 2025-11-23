@@ -104,7 +104,7 @@ export default function ProductPageClient({ productId }) {
 
   if (!product) {
     return (
-      <section className="max-w-[1500px] mx-auto flex flex-col 2xl:px-[250px] xl:px-[150px] lg:pt-[220px] pt-[170px] pb-[100px]">
+      <section className="overflow-x-hidden max-w-[1500px] mx-auto flex flex-col 2xl:px-[250px] xl:px-[150px] lg:pt-[220px] pt-[170px] pb-[100px]">
         <p className="text-white text-xl">Product not found.</p>
       </section>
     );
@@ -112,7 +112,7 @@ export default function ProductPageClient({ productId }) {
 
   return (
     <>
-      <section className="max-w-[1500px] mx-auto flex flex-col 2xl:px-[250px] xl:px-[150px] lg:px-[78px] px-4 lg:pt-[220px] pt-[170px] pb-[100px]">
+      <section className="overflow-x-hidden max-w-[1500px] mx-auto flex flex-col 2xl:px-[250px] xl:px-[150px] lg:px-[78px] px-4 lg:pt-[220px] pt-[170px] pb-[100px]">
         <p className="product-breadcrumb font-montserrat text-white text-base capitalize mb-[30px]">
           <span className="font-medium">Products</span>
           <span className="font-semibold"> / {product.title}</span>

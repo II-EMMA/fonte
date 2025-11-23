@@ -98,7 +98,7 @@ export default function ClientBlogPage({ blogId }) {
 
   if (!blog) {
     return (
-      <section className="max-w-[1500px] mx-auto flex flex-col px-[300px] lg:pt-[220px] pt-[170px] pb-[100px]">
+      <section className="overflow-x-hidden max-w-[1500px] mx-auto flex flex-col px-[300px] lg:pt-[220px] pt-[170px] pb-[100px]">
         <p className="text-white">Blog not found.</p>
       </section>
     );
@@ -109,7 +109,7 @@ export default function ClientBlogPage({ blogId }) {
   };
 
   return (
-    <section className="max-w-[1500px] mx-auto flex flex-col 2xl:px-[300px] xl:px-[220px] lg:px-[120px] md:px-16 px-5 md:pt-[220px] pt-[170px] pb-[100px]">
+    <section className="overflow-x-hidden max-w-[1500px] mx-auto flex flex-col 2xl:px-[300px] xl:px-[220px] lg:px-[120px] md:px-16 px-5 md:pt-[220px] pt-[170px] pb-[100px]">
       {/* Breadcrumb */}
       <p className="font-montserrat text-base">
         <span className="font-medium text-white/80">Blog</span>

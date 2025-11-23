@@ -3,7 +3,7 @@ import Title from "@/components/texts/Title";
 
 export default function page() {
   return (
-    <section className="max-w-[1500px] mx-auto flex flex-col gap-y-24 2xl:px-[300px] xl:px-[175px] lg:px-20 px-10 lg:pt-[220px] pt-[170px] pb-[100px]">
+    <section className="overflow-x-hidden max-w-[1500px] mx-auto flex flex-col gap-y-24 2xl:px-[300px] xl:px-[175px] lg:px-20 px-10 lg:pt-[220px] pt-[170px] pb-[100px]">
       <div className="flex gap-14 lg:flex-row flex-col items-start">
         <div className="flex flex-col gap-y-[70px]">
           <div className="self-start text-white  -mb-8">

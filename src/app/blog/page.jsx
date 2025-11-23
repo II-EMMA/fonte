@@ -29,7 +29,7 @@ export default function Page() {
   }, [active]);
 
   return (
-    <section className="max-w-[1500px] mx-auto flex flex-col gap-y-12 items-center 2xl:px-[300px] xl:px-[175px] lg:px-[105px] lg:pt-[220px] pt-[170px] pb-[100px]">
+    <section className="overflow-x-hidden max-w-[1500px] mx-auto flex flex-col gap-y-12 items-center 2xl:px-[300px] xl:px-[175px] lg:px-[105px] lg:pt-[220px] pt-[170px] pb-[100px]">
       <div className="self-start lg:mx-0 mx-10">
         <Title className="-top-1.5 -right-4">blog</Title>
       </div>

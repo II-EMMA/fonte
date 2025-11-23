@@ -29,7 +29,7 @@ export default function Page() {
   }, [active]);
 
   return (
-    <section className="max-w-[1500px] mx-auto flex flex-col 2xl:px-[210px] xl:px-[180px] lg:px-[100px] md:px-5 px-2.5 lg:pt-[220px] pt-[170px] pb-[100px]">
+    <section className="overflow-x-hidden max-w-[1500px] mx-auto flex flex-col 2xl:px-[210px] xl:px-[180px] lg:px-[100px] md:px-5 px-2.5 lg:pt-[220px] pt-[170px] pb-[100px]">
       <div className="self-start text-white mb-24">
         <Title className="-top-1 -right-4.5">Products</Title>
       </div>
