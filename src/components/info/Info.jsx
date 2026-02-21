@@ -9,10 +9,10 @@ export default function Info() {
       <div className="flex gap-x-20 font-montserrat font-medium text-sm text-white/30">
         <ul className="flex flex-col gap-y-5">
           <li>
-            <Link href="#about-us">About Us</Link>
+            <Link href="/#about-us">About Us</Link>
           </li>
           <li>
-            <Link href="#team">Team</Link>
+            <Link href="/#team">Team</Link>
           </li>
           <li>
             <Link href="/blog">Blog</Link>
